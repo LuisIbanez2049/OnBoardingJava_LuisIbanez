@@ -31,6 +31,7 @@ public class  Persona {
 
 
     //----------------------GETERS Y SETERS----------------------------------------------------------------------------
+    //SON METODOS ACCESORES PARA MODIFICAR, OBTENER Y ASIGNAR LOS ATRIBUTOS DE LA CLASE
     public String getNombre() {
         return nombre;
     }
@@ -106,7 +107,7 @@ public class  Persona {
     }
 
     public void addPets(Pet pet){
-        this.pet = pet;
+       // this.pet = pet;
         pet.setPersona(this);
     }
 
